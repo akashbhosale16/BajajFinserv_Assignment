@@ -1,0 +1,43 @@
+{
+  "is_success": true,
+  "token_usage": {
+    "total_tokens": 0,
+    "input_tokens": 0,
+    "output_tokens": 0
+  },
+  "data": {
+    "pagewise_line_items": [
+      {
+        "page_no": "1",
+        "page_type": "Bill Detail",
+        "bill_items": [
+          {
+            "item_name": "Paracetamol 500mg",
+            "item_amount": 120.0,
+            "item_rate": 60.0,
+            "item_quantity": 2
+          },
+          {
+            "item_name": "Cough Syrup 100ml",
+            "item_amount": 180.0,
+            "item_rate": 180.0,
+            "item_quantity": 1
+          }
+        ]
+      },
+      {
+        "page_no": "2",
+        "page_type": "Final Bill",
+        "bill_items": [
+          {
+            "item_name": "Consultation Fee",
+            "item_amount": 500.0,
+            "item_rate": 500.0,
+            "item_quantity": 1
+          }
+        ]
+      }
+    ],
+    "total_item_count": 3
+  }
+}
